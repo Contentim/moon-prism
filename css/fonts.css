@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  font-weight: 700;
+  src: url('../fonts/bebasneue/bebasneue_bold.eot');
+  src: url('../fonts/bebasneue/bebasneue_bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/bebasneue/bebasneue_bold.woff') format('woff'),
+       url('../fonts/bebasneue/bebasneue_bold.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  font-weight: 300;
+  src: url('../fonts/bebasneue/bebasneue_light.eot');
+  src: url('../fonts/bebasneue/bebasneue_light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/bebasneue/bebasneue_light.woff') format('woff'),
+       url('../fonts/bebasneue/bebasneue_light.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+  src: url('../fonts/bebasneue/bebasneue_regular.eot');
+  src: url('../fonts/bebasneue/bebasneue_regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/bebasneue/bebasneue_regular.woff') format('woff'),
+       url('../fonts/bebasneue/bebasneue_regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+  src: local('HelveticaNeue-Light'), url('../fonts/helvetica/HelveticaNeueCyr-Light.otf') format('opentype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+  font-style: italic;
+  src: local('HelveticaNeue-LightItalic'), url('../fonts/helvetica/HelveticaNeueCyr-LightItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-weight: 500;
+  font-style: normal;
+  src: local('HelveticaNeue-Medium'), url('../fonts/helvetica/HelveticaNeueCyr-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'bravorgregular';
+  font-weight: 500;
+  font-style: normal;
+  src: local('bravorgregular'), url('http://dpotolki.ru/wp-content/themes/dpt/css/fonts/bravorg-webfont.woff2') format('opentype');
+}

@@ -1,0 +1,601 @@
+/*
+*  Custom CSS 
+* 
+*/
+
+b, strong {
+    font-weight: 500 !important;
+}
+
+.align_center {
+    text-align: center;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue',sans-serif !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+}
+
+/*@media only screen and (min-width: 1200px) {
+    .pc-version {
+        display: block;
+      }
+
+    .mobile-version {
+        display: none;
+    }
+}*/
+
+.yellow_container {
+    background: #fbc02d;
+}
+
+.cntnt {
+    margin-bottom: 10px;
+}
+
+#uslugi_grizchika {
+    padding: 20px;
+}
+
+#uslugi_grizchika .caption_form {
+    margin: 10px 0 5px;
+    font-weight: 500;
+}
+
+#uslugi_grizchika .srochno {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+}
+
+#uslugi_grizchika .phone {
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0;
+}
+
+#uslugi_grizchika .time {
+    font-size: 25px;
+    font-style: italic;
+}
+
+#order_gruz {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 10px 20px;   
+}
+
+#okruga_moskva {
+    padding-top: 0;
+}
+
+.form_order_gruz {
+    background: #fbc02d;
+    padding: 5px 0 20px;
+    margin-bottom: 20px;
+}
+
+.okruga_title {
+    font-family: 'Bebas Neue',sans-serif !important;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px 0 5px;
+}
+
+.list_okruga {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.okruga_title_order {
+    font-family: 'Bebas Neue',sans-serif !important;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+.okruga_phone_order {
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+}
+
+.okruga_caption_order {
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+
+.bot-blocks {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'exo_2';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+}
+
+.clients_cntnt {
+    margin: 0 0 20px;
+}
+
+.blocks-image {
+    display: block;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 0;
+    margin: 0 auto 15px; 
+}
+
+.blocks-title {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.ttl,
+.ttl_alternative {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue',sans-serif !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-size: 24px;
+    margin: 0 0 15px;
+}
+
+.ttl_alternative {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.sidebar-category-menu {
+    float: right !important;
+}
+
+.additional-text h2 {
+    font-size: 24px;
+    margin: 30px 0 20px;
+}
+
+.additional-text h2:first-child { margin: 0 0 20px; }
+
+.price-arenda-speztechnika h2 {
+  text-align: left; 
+}
+
+.price-arenda-speztechnika h3 {
+  margin: 0 0 20px;
+}
+
+.button-callback-order {
+    text-align: center;
+    padding: 15px 15px 0;
+}
+
+.button-callback-order h3 {
+    margin: 25px 0 0;
+    font-family: sans-serif !important;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: 600 !important;
+    font-style: italic;
+}
+
+.additional-text .dogovor-technik:first-child {padding: 0;}
+
+.price_containerovoz {
+
+}
+
+.price_containerovoz tr td {
+    border: 1px solid;
+    padding: 15px;
+}
+
+.price_containerovoz th {
+    border: 1px solid;
+    font-weight: 400;
+    text-align: center;
+}
+
+.price_containerovoz .sub_title {
+    width: 50%;
+}
+
+.price_containerovoz  .c_price {
+    text-align: center;
+}
+
+.dogovor-download {
+    text-align: center;
+}
+
+.pcard-description-text h2 {
+    margin: 0 0 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.table_postorder {
+    width: 100%;
+}
+
+.table_postorder thead {
+    background: #fbc02d;
+    font-weight: 500;
+}
+
+.table_postorder thead td {
+    text-align: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid #c7c6c6;
+    border-right: 1px solid #c7c6c6;
+}
+
+.table_postorder tbody {
+    
+}
+
+.table_postorder tbody td {
+    text-align: center;
+    line-height: normal;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;
+    padding: 8px 15px;
+    border: 1px solid #c7c6c6;
+    background: #e7e6e6;
+}
+
+.table_postorder tbody td:first-child {
+    text-align: left;
+}
+
+.table_postorder thead td.t_title {
+    /*width: 35%;*/
+}
+
+.table_postorder thead td.t_gruz {
+}
+
+.table_postorder thead td.t_strela {
+    width: 17%;
+}
+
+.table_postorder thead td.t_gus {
+    width: 9%;
+}
+
+.table_postorder thead td.t_price {
+
+}
+
+.table_postorder tbody td a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.table_postorder tbody td a:hover {
+    text-decoration: none;
+}
+
+.catalog-item-price .title_price_catalog {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    text-transform: initial;
+    font-weight: 300;
+}
+
+.page-content ul.list_char_catalog {
+    padding: 0 0 0 13px;
+}
+
+.page-content ul.list_char_catalog li {
+    margin: 0 0 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.avtobetononasosy thead td.t_title {
+    width: 25%;
+}
+
+.nav-justified>.dropdown .dropdown-menu li {
+    margin-bottom: 5px;
+}
+
+#top_nav {
+    background: #666;
+}
+
+#header_list_top_nav {
+    padding: 0;
+}
+
+.list_top_nav {
+    list-style: none;
+    margin: 3px 0 0;
+    padding: 0;
+}
+
+.list_top_nav li {
+    float: left;
+    margin: 0 10px;
+}
+
+.list_top_nav li a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.list_top_nav li a:hover {
+    text-decoration: none;
+}
+
+aside .item-jober {
+
+}
+
+aside .item-jober .item-spc-description {
+    margin-bottom: 0;
+}
+
+aside .item-jober .i-jober {
+    margin: 15px 0 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+aside .item-jober .i-jober span {
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 6px;
+    color: #666;
+}
+
+.catalog-item-img a:hover {
+    opacity: .7;
+}
+
+.incut {
+    display: block;
+    font-size: 20px;
+    border-left: 5px solid #fbc02d;
+    padding: 8px 0 8px 25px;
+    margin: 30px 0;
+}
+
+div.incut p {
+    padding: 0;
+    margin: 0;
+}
+
+div.incut p b {
+    /*font-family: 'Bebas Neue',sans-serif;
+    font-size: 25px;*/
+}
+
+div.incut a {
+    color: #444;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+div.incut a:hover {
+    border-bottom: 1px solid transparent;
+}
+
+.item-spc.current-menu-articles {
+    padding: 20px 10px 10px;
+    background: none;
+    border: 5px solid #fbc02d;
+}
+
+.current-menu-articles h3 {
+    margin: 0 0 15px;
+}
+
+.list-nav-current-articles {
+    padding-left: 20px;
+}
+
+.list-nav-current-articles li {
+    
+}
+
+.list-nav-current-articles li a {
+    color: #333;
+    font-size: 19px;
+    border-bottom: 1px dotted;
+}
+
+.list-nav-current-articles li a:hover,
+.list-nav-current-articles li a:focus {
+    text-decoration: none;
+    border-bottom: 1px dotted transparent;
+}
+
+.set-eq-title.home_page_title_articles {
+    margin-top: 21px;
+    margin-bottom: 10px;
+    text-align: center;
+    /*border-bottom: 5px solid #fbc02d;*/
+    padding-bottom: 10px;
+}
+
+.set-eq-title.home_page_title_catalog {
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.category_order {
+    width: 100%;
+    background: #fbc02d;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 15px 15px 10px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.category_order p {
+    text-align: center;
+    margin: 0;
+    line-height: normal;
+}
+
+.category_order .category_order_title {
+    font-weight: 500;
+}
+
+.cat-desc.cat-desc-img {
+    padding: 0;
+}
+
+.cat-desc.cat-desc-img img {
+    width: 100%;
+}
+
+#ya_map {
+    height: 300px;
+    display: block;
+    width: 100%;
+}
+
+#map_mkad .h2 {
+    margin: 0;
+    background: #fbc02d;
+    padding: 10px;
+    font-size: 30px;
+}
+
+input.search.quick_search {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 25px;
+    margin: 0 0 15px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    outline: none;
+}
+
+#list_quick_search {
+    list-style: none;
+    padding: 0;
+}
+
+#list_quick_search li .title {
+    font-size: 30px;
+    font-family: 'Bebas Neue',sans-serif !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+}
+
+.home_catalog_tech {
+    margin-bottom: 30px;
+}
+
+.home_catalog_tech .title_home_catalog_tech {
+    font-family: 'Bebas Neue',sans-serif !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    font-size: 23px;
+    border-bottom: 2px solid #fbc02d;
+    margin: 0 0 10px;
+}
+
+.home_catalog_tech .title_home_catalog_tech .link_price_list {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: initial;
+    color: #111;
+    position: absolute;
+    top: -7px;
+    padding: 0 0 0 5px;
+}
+
+.home_catalog_tech .title_home_catalog_tech a.link_price_list {
+    text-decoration: underline;
+}
+
+.home_catalog_tech .title_home_catalog_tech a.link_price_list:hover {
+    text-decoration: none;
+}
+
+.home_catalog_tech .list_char_catalog {
+    list-style-image: url(img/caret.png);
+    padding: 0 0 0 12px;
+}
+
+.home_catalog_tech .list_char_catalog li {
+    margin: 0 0 5px;
+}
+
+.home_catalog_tech .list_char_catalog li a {
+    color: #444;
+    text-decoration: underline;
+}
+
+.home_catalog_tech .list_char_catalog li a:hover {
+    text-decoration: none;
+}
+
+#wrap_home_page_title_catalog {
+    padding: 0;
+}
+
+.home .information-container .information-content {
+    padding-right: 50px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    #tech_catalog_footer_single {
+        display: none;
+    }
+
+    #uslugi_grizchika .srochno {
+        text-align: center;
+    }
+
+    #uslugi_grizchika .time {
+        text-align: center;
+    }
+
+    #uslugi_grizchika .phone,
+    .okruga_phone_order {
+        font-size: 27px;
+    }
+
+    .okruga_title {
+        line-height: normal;
+    }
+
+    .okruga_title_order {
+        font-size: 24px;
+    }
+}

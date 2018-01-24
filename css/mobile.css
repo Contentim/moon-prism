@@ -1,0 +1,392 @@
+@media only screen and (max-width: 1800px) {
+  .information {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .information {
+    width: 95%;
+  }
+  .sp-horizontal .sp-next-arrow {
+    right: 10%;
+  }
+  .sp-horizontal .sp-previous-arrow {
+    left: 10%;
+  }
+  .sp-slide .sp-layer[data-horizontal="21%"][data-position="centerLeft"] {
+    left: 15% !important;
+    right: 32%;
+  }
+  .sp-slide .sp-layer[data-horizontal="20%"][data-position="topRight"] {
+    right: 18% !important;
+  }
+  .information-img {
+    width: 45%;
+    width: -webkit-calc(45% - 30px);
+    width: -moz-calc(45% - 30px);
+    width: calc(45% - 30px);
+  }
+  .information-container .container {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  /*.pc-version {
+    display: none;
+  }
+  .mobile-version {
+    display: block;
+  }*/
+  .set-eq .item-spc {
+    height: 270px;
+  }
+  .item-spc-title {
+    margin: 15px 0 0;
+    font-size: 28px;
+  }
+  .item-spc-title+.item-spc-description {
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  .item-spc-description {
+    margin-bottom: 25px;
+  }
+  .eq-item {
+    padding: 35px 10px 15px;
+    height: 270px;
+    height: 195px;
+  }
+  .eq-item-btn {
+    display: none;
+  }
+  .information {
+    width: auto;
+    padding: 80px 0;
+  }
+  .information-img {
+    width: 47%;
+    width: -webkit-calc(50% - 30px);
+    width: -moz-calc(50% - 30px);
+    width: calc(50% - 30px);
+  }
+  .sp-horizontal .sp-next-arrow {
+    right: 5%;
+  }
+  .sp-horizontal .sp-previous-arrow {
+    left: 5%;
+  }
+  .service-price>div>div {
+    margin-bottom: 20px;
+  }
+  .service-price {
+    margin-top: 20px;
+  }
+  .home header {
+    position: static;
+    margin-bottom: 0;
+  }
+  .home #mainslider {
+    position: static;
+  }
+  header {
+    border-top: 0;
+    height: 190px;
+  }
+  .home #mainslider {
+    position: static;
+  }
+  .home section.content {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .sp-next-arrow, .sp-previous-arrow {
+    height: 50px;
+  }
+  .sp-horizontal .sp-next-arrow {
+    right: 10px;
+  }
+  .sp-horizontal .sp-previous-arrow {
+    left: 10px;
+  }
+  .sp-buttons {
+    left: 10%;
+  }
+  .set-eq-title {
+    margin: 40px 0;
+  }
+  .features-title {
+    margin: 65px 0;
+  }
+  footer {
+    font-size: 14px;
+    margin-top: -60px;
+    background: #fff;
+  }
+  footer .row>div {
+    height: 60px;
+  }
+  section.content {
+    padding-bottom: 60px;
+  }
+  .about-title {
+    margin: 50px 0 40px;
+  }
+  .about-description {
+    margin-top: 20px;
+  }
+  .catalog-item-priceinfo a {
+    padding: 10px 0;
+  }
+  .catalog-item .h3 {
+    font-size: 22px;
+    margin-top: 0;
+  }
+  .catalog-item-description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .navbar-filters-container {
+    margin-bottom: 0;
+  }
+  .catalog-list {
+    padding-top: 0;
+  }
+  .page-header {
+    padding: 100px 0 0;
+  }
+  .pages-nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .service-price {
+    font-size: 14px;
+  }
+  .service-price .caption-btn {
+    font-size: 16px;
+  }
+  .pcard-description-text {
+    font-size: 14px;
+  }
+  .panel-group {
+    font-size: 14px;
+  }
+  .blitem-description time {
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
+  .caption-title {
+    font-size: 48px;
+  }
+  .caption-description {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-filters .navbar-collapse {
+    padding: 0 15px;
+  }
+  .navbar-brand {
+    display: block;
+  }
+  .set-eq-title {
+    text-align: center;
+  }
+  .information {
+    padding: 30px 0;
+  }
+  .information .information-img {
+    display: none;
+  }
+  .information-title {
+    font-size: 40px;
+  }
+  .information-content .caption-btn {
+    display: block;
+    text-align: center;
+  }
+  .set-eq-title {
+    font-size: 44px;
+  }
+  .sp-layer img {
+    max-height: 300px;
+  }
+  .sp-layer {
+    max-width: 100%;
+  }
+  .page-description {
+    margin-top: 40px;
+  }
+  .page-title {
+    line-height: 1.2;
+    font-size: 44px;
+  }
+  .service-desc {
+    margin-top: 20px;
+  }
+  .page-inset-content {
+    margin-top: 10px;
+  }
+  .get-price-btn {
+    margin-top: 5px;
+  }
+  .get-price-btn .caption-btn {
+    font-size: 14px;
+    padding: 10px 10px;
+    text-align: center;
+  }
+  .panel-styled td {
+    font-size: 13px;
+  }
+  .page-content {
+    margin-top: 30px;
+  }
+  .mapblock {
+    display: none;
+  }
+  .breadcrumbs {
+    font-size: 13px;
+  }
+  .mobile-reverse {
+    display: -webkit-flex;
+    display: -ms-flex;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .single-card-img {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .service-price {
+    margin-bottom: 30px;
+  }
+  .about {
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .caption-title {
+    font-size: 24px;
+  }
+  .caption-description {
+    font-size: 14px;
+    white-space: normal;
+  }
+
+  .exmp-btns a {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .header-phone span{
+    font-size: 17px;
+  }
+
+  .navbar-nav > li.menu-item-calc > a {
+    background-position: left 15px center;
+    padding-left: 36px;
+  }
+
+  div.page-title {
+    font-size: 36px;
+  }
+
+  .work_place, .yarrow {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .logo-title {
+    font-size: 26px;
+  }
+  .header-phone {
+    background: none;
+    padding-left: 25px;
+  }
+  .logo-slogon {
+    font-size: 11px;
+    padding-left: 0;
+  }
+  .panel-styled td+td+td {
+    display: none;
+  }
+  .page-title {
+    font-size: 36px;
+  }
+  .additional-text {
+    margin-top: 25px;
+  }
+  .caption-btn {
+    padding: 10px 20px;
+  }
+  .modal-xs .btn-row .caption-btn {
+    display: block;
+    width: 100%;
+  }
+  .features-title {
+    margin: 25px 0;
+    font-size: 36px;
+  }
+  .features {
+    height: auto;
+    padding-bottom: 80px;
+  }
+  .features .col-xs-15-3 {
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  .about-title {
+    margin: 35px 0 40px;
+    font-size: 44px;
+  }
+  .attachment-post-thumbnail {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .logo-title {
+    font-size: 17px;
+  }
+  .logo-slogon {
+    font-size: 10px;
+  }
+  .page-title {
+    font-size: 25px;
+  }
+  .additional-text h2.title_price_not_nds {
+    margin-top: 30px !important;
+  }
+  .catalog-item-price {
+    display: block;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+  }
+  .catalog-item-price .title_price_catalog {
+    margin: 0 0 10px;
+  }
+  .catalog-item-price span {
+    margin: 0;
+  }
+  .catalog-item-priceinfo a {
+    position: static;
+    width: 100%;
+  }
+  .catalog-item-priceinfo {
+    height: initial;
+  }
+  footer .row>div {
+    display: block;
+    font-size: 11px;
+    padding-top: 15px;
+  }
+}
